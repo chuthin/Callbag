@@ -28,7 +28,7 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+  - [ActionKit](https://github.com/ActionKit/ActionKit)
 ## Installation
 
 Callbag is available through [CocoaPods](https://cocoapods.org). To install
