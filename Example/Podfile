@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'Callbag_Example' do
   pod 'Callbag', :path => '../'
-
+  
   target 'Callbag_Tests' do
     inherit! :search_paths
 

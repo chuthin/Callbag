@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3D8CC386C9B34FEFF5404790 /* Pods_Callbag_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F08CA94C0B7A371EB967B80 /* Pods_Callbag_Tests.framework */; };
+		57D9532C20DB6EF8001F8900 /* ValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9532B20DB6EF8001F8900 /* ValidateViewController.swift */; };
+		57D9532E20DB6F21001F8900 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9532D20DB6F21001F8900 /* CounterViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		334415805504EF2E839726F6 /* Pods-Callbag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Callbag_Tests/Pods-Callbag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F08CA94C0B7A371EB967B80 /* Pods_Callbag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callbag_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D9532B20DB6EF8001F8900 /* ValidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateViewController.swift; sourceTree = "<group>"; };
+		57D9532D20DB6F21001F8900 /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Callbag_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Callbag_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +45,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		711C91905A728466A12F09FC /* Pods-Callbag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Callbag_Example/Pods-Callbag_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71E616EF2CE5AB51D3D0C7FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		71E616EF2CE5AB51D3D0C7FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85434CBFD54A139F6B0822B3 /* Pods-Callbag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Callbag_Tests/Pods-Callbag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9821FAAE7B37DF215C556052 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9821FAAE7B37DF215C556052 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A05E72887B39552AD28E653F /* Pods-Callbag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Callbag_Example/Pods-Callbag_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B26234C5FC07610F9F07EA31 /* Pods_Callbag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callbag_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F79671C6A160444D5317BBB7 /* Callbag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Callbag.podspec; path = ../Callbag.podspec; sourceTree = "<group>"; };
+		F79671C6A160444D5317BBB7 /* Callbag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Callbag.podspec; path = ../Callbag.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		607FACD21AFB9204008FA782 /* Example for Callbag */ = {
 			isa = PBXGroup;
 			children = (
+				57D9532D20DB6F21001F8900 /* CounterViewController.swift */,
+				57D9532B20DB6EF8001F8900 /* ValidateViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -304,10 +310,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Callbag_Example/Pods-Callbag_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionKit/ActionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Callbag/Callbag.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Callbag.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +331,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				57D9532E20DB6F21001F8900 /* CounterViewController.swift in Sources */,
+				57D9532C20DB6EF8001F8900 /* ValidateViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

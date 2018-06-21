@@ -7,11 +7,17 @@
 //
 
 import UIKit
-
+import Callbag
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        Callbag.fromArray([1,2,3,4])
+            .filter{$0 % 2 == 0}
+            .map{ $0 * 2}
+            .forEach{ print($0) }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
