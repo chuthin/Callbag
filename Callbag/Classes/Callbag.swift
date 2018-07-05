@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+public typealias SourceTalkback = (SourcePayload) -> Void
 public typealias SinkTalkback<T> = (SinkPayload<T>) -> Void
 public typealias Source<T> = (@escaping SinkTalkback<T>) -> Void
 public typealias Sink<T> = (Source<T>) -> Void
@@ -26,7 +26,7 @@ public enum SourcePayload {
 }
 
 public enum SinkPayload<T>{
-    case Start((SourcePayload) -> Void)
+    case Start(SourceTalkback)
     case Push(T)
     case End
 }
