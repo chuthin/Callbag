@@ -20,6 +20,10 @@ extension Callbag {
                         {
                             talkback(SinkPayload.Push(v))
                         }
+                        else
+                        {
+                            talkback(SinkPayload.End)
+                        }
                     case .End:
                         talkback(SinkPayload.End)
                     }

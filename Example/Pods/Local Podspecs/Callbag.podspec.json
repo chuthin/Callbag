@@ -2,8 +2,8 @@
   "name": "Callbag",
   "version": "0.1.0",
   "summary": "👜 A standard for Swift callbacks that enables lightweight observables and iterables.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/chuthin/swift-callbag",
+  "description": "👜 A standard for Swift callbacks that enables lightweight observables and iterables.",
+  "homepage": "https://github.com/chuthin/Callbag/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,14 @@
     "chuthin": "thincv@live.com"
   },
   "source": {
-    "git": "https://github.com/chuthin/swift-callbag.git",
+    "git": "https://github.com/chuthin/Callbag.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "Callbag/Classes/**/*",
+  "frameworks": "UIKit",
   "dependencies": {
     "ActionKit": [
 
