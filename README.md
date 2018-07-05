@@ -20,6 +20,11 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 ## Transformation operators
   - map
   - filter
+  - take
+  - takeUntil
+  - skip
+  - skipUntil
+  - scan
 ## Combination operators  
   - merge
   - combineLastest
