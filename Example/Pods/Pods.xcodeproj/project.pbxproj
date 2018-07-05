@@ -7,33 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F7B197E983BFC0317C939283630998 /* Callbag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D17DCD0D418A5BE3B32E29039249BD /* Callbag.swift */; };
+		0ACC224CCCBBF8638E61144E3B3B24C7 /* Callbag+FromInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D663CC317B3500F16AB8581ED1E293 /* Callbag+FromInterval.swift */; };
+		0FD07897B9225253633887EFAF90E66C /* Callbag+CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74868FF6744C0577EE98E7E56A083A3 /* Callbag+CombineLatest.swift */; };
+		100CE31CF3A1435677BC08BE36069E04 /* Callbag+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAB0DD3CE90F13B2DDBAD834842C1AD /* Callbag+Filter.swift */; };
+		1AF279B46765B692A5ECEEAA56EC4BF8 /* Callbag+Foreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19BA42263A42FDE564981E6C0ED686 /* Callbag+Foreach.swift */; };
+		1DA97120692C3785A5ED271C0B4D8492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */; };
 		223E588B8295E513E776B7A6CE5C4797 /* Pods-Callbag_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6140404F160BDC779ED969D63F2F102A /* Pods-Callbag_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24058F442F38A661A8BDBB10356ACCD7 /* Pods-Callbag_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A83C73855A976CB6EEBFEE0E43BE3D5 /* Pods-Callbag_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2920E2B8A870DC096C725ADA211622EB /* Callbag+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017B6850A1441FB9E3761A6E938BC6A5 /* Callbag+Merge.swift */; };
+		3A1EC5C3ADCFCC0692C532F0B5060357 /* Callbag+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B83E0BF07203A196326DDEEE4FE848A /* Callbag+Map.swift */; };
 		3EC4F72AA881B799FEF48A8A46137452 /* Pods-Callbag_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF88E31E4434AA36140C705406D59FC4 /* Pods-Callbag_Example-dummy.m */; };
 		4299A1C5C3E191ECB2BF915076025FB1 /* UIControl+ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15039D42A8649BC8697AA1B9AAA37EE /* UIControl+ActionKit.swift */; };
-		503440F8C6F8176B1D16633B3046C363 /* Callbag+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C651FFB24D3F7FF3B161E5D24045A7FE /* Callbag+Filter.swift */; };
-		53602BEBBD24FB8593FCFC8DED5BE00C /* Callbag+FromEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED749ED88F2024BBAD9C062FE1A4A4 /* Callbag+FromEvent.swift */; };
-		700ADC0D8D8E6FD684B8075A20AEFA20 /* Callbag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 189DBBB097A43C94619175A0405E4E3F /* Callbag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71AC1E0E9448CD2B645EE0717BFFF9E7 /* Callbag+CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13164D025577312AD52CB1B5E568D242 /* Callbag+CombineLatest.swift */; };
-		7CFABAAC14EAC20C1C8C91C8E97C918C /* Callbag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A293FE3EC10F92C84F4B8775FEEF4 /* Callbag.swift */; };
-		87F8B294D0BF85EA014354F5F7DEDF4F /* Callbag+FromValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1A0A100172A02C8B4114C743FC5EE /* Callbag+FromValues.swift */; };
-		8B115349FCF94FB9C7718A597117E4FB /* Callbag+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166A73BEC2DD86E0032C4B59FED181B /* Callbag+Merge.swift */; };
+		529D3A1D05721A569587676A3E7670CE /* Callbag+Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C0B44823B65A2E16770AB390EDCDE8 /* Callbag+Scan.swift */; };
+		5AD7015410D07C4BE27882CBC9E1F640 /* Callbag+Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82C9B6B1BB12AAD63C9B9049D7149C9 /* Callbag+Skip.swift */; };
+		6D5224BF482595C18A3FD6CFA6464F04 /* Callbag+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192517E9A61A145755B3B974363CC791 /* Callbag+Array.swift */; };
+		7BC857F6F547F2BE4BBDAE91A408DB04 /* Callbag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF21C82B0BD8B11D8B60206B33E7FB7D /* Callbag-dummy.m */; };
+		882B77B07E5BC2474BF4825A8CC99516 /* Callbag+FromValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E4E753414EDC7E2B0E6EFFC4C11B06 /* Callbag+FromValues.swift */; };
 		8E7BEC3292FFE234C599DFEB14FB1604 /* ActionKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76DD7E9D75B746B6872C23005710A7DB /* ActionKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95406B628A459622878228BA7CADCE9A /* Callbag+Foreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE5C78C647E69C604C1183A9210792 /* Callbag+Foreach.swift */; };
-		AE726432E7A11EA3AE6F9EC59549005E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */; };
+		A16F436743B184F839B30D0EA60033EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FAD510E76868A0B5EDD955838ED6F8 /* UIKit.framework */; };
+		AE726432E7A11EA3AE6F9EC59549005E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */; };
 		AF31DAA24D5A3C786D0BC2EF16592431 /* ActionKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5898F92379FB92DE8A3FA3A3D93E40 /* ActionKit-dummy.m */; };
-		B61539F27BC890FF489773DEFCA52934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */; };
-		B758C05F7CC3EC9837F7902AEB9B710C /* Callbag+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC04DF88D8C27966B81896B0FE9C465 /* Callbag+Array.swift */; };
+		B19F9A8139FC7A0A80B295D9E0764C1A /* Callbag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C003F18BA17D7A8BB7D1DED602E6FC /* Callbag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61539F27BC890FF489773DEFCA52934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */; };
 		C5C329A65893F0434CB5D8F825185514 /* ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A5E7D7EF2768BD2DAEC89E19A74F2 /* ActionKit.swift */; };
-		C6412D8391732A760C3E3D51BE7CA667 /* Callbag+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB513C175C788A98DE41413A26EDDCB /* Callbag+Map.swift */; };
+		C72E7C7E0AAF3F0A44BC01778DF22853 /* Callbag+Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66D14D4D58A4E017EBA45C04CA2A34 /* Callbag+Take.swift */; };
+		CBA2CF543B70FD0F31A42DEC239EC8DD /* ActionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEE388564E82CE3AD7B34FB4966DA07 /* ActionKit.framework */; };
+		CCFF5A75D20DB949B210A901AD2B15C7 /* Callbag+FromEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AAD459254ABEAA40309C01DDE26C64 /* Callbag+FromEvent.swift */; };
 		D0A26B030E15B8E45F49586AB5B22620 /* Pods-Callbag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7896ABA244D6781E2372F0464843563 /* Pods-Callbag_Tests-dummy.m */; };
-		D3C9E04FABFE6874D706C56278A5FDBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */; };
-		E0B2212D4C9171D593C1CEE633653BF4 /* ActionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6574A11FBA6AE3B74791058B4674F957 /* ActionKit.framework */; };
 		EE1ABC6233F3B70DF64F9D07156DE969 /* UIGestureRecognizer+ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C63683AAF45D9BA3EE1935BA703FB /* UIGestureRecognizer+ActionKit.swift */; };
 		F0AB89EE154FEE81BBCF6F57DB627FD2 /* UIBarButtonItem+ActionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56472D172EF675E030DFBBC2F85D8F2F /* UIBarButtonItem+ActionKit.swift */; };
-		F190CA2F60E5EB0395077B636DFC8762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */; };
-		F933187C5C1137DC30AF5DEAFB19D2FC /* Callbag+FromInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D149CC0BB4B798927DB4E72508ADAC44 /* Callbag+FromInterval.swift */; };
-		FE9D93CA4DB193BF64BCD6DDAC408A77 /* Callbag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7275591B8DE6FBF1E0221B44791EDA0A /* Callbag-dummy.m */; };
+		F190CA2F60E5EB0395077B636DFC8762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +55,7 @@
 			remoteGlobalIDString = 9D730CBE779B887BE48A5DB715832FF9;
 			remoteInfo = "Pods-Callbag_Example";
 		};
-		A139C99892C2EE190850F7491A889878 /* PBXContainerItemProxy */ = {
+		8447AC639D81C94F6570CAC94785CD9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -62,68 +66,72 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3BAFC033BB3B53BFC440D4D1C7047C88;
+			remoteGlobalIDString = 0A510BDB7DFE64538A1277DCB128182C;
 			remoteInfo = Callbag;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017B6850A1441FB9E3761A6E938BC6A5 /* Callbag+Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Merge.swift"; path = "Callbag/Classes/Callbag+Merge.swift"; sourceTree = "<group>"; };
 		0AA6A1AE8867E97456BF7024749346ED /* Pods_Callbag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Callbag_Example.framework; path = "Pods-Callbag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB3ADD235A2085FA3A401BE3F1ABEEF /* Pods-Callbag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Callbag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EE818261C92D346C249E33B09DD5A64 /* Pods-Callbag_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Callbag_Example-resources.sh"; sourceTree = "<group>"; };
 		0FDC82D259F9038ED360EB2DCC0860EA /* Pods-Callbag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Callbag_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		13164D025577312AD52CB1B5E568D242 /* Callbag+CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+CombineLatest.swift"; path = "Callbag/Classes/Callbag+CombineLatest.swift"; sourceTree = "<group>"; };
-		189DBBB097A43C94619175A0405E4E3F /* Callbag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Callbag-umbrella.h"; sourceTree = "<group>"; };
-		2166A73BEC2DD86E0032C4B59FED181B /* Callbag+Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Merge.swift"; path = "Callbag/Classes/Callbag+Merge.swift"; sourceTree = "<group>"; };
-		2190B12EF35E9FC01D3F31146522E503 /* Callbag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Callbag-prefix.pch"; sourceTree = "<group>"; };
+		192517E9A61A145755B3B974363CC791 /* Callbag+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Array.swift"; path = "Callbag/Classes/Callbag+Array.swift"; sourceTree = "<group>"; };
 		22104AB1047434B552BF8E2A9743DF0E /* Pods-Callbag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Callbag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		25CE5C78C647E69C604C1183A9210792 /* Callbag+Foreach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Foreach.swift"; path = "Callbag/Classes/Callbag+Foreach.swift"; sourceTree = "<group>"; };
+		28C0B44823B65A2E16770AB390EDCDE8 /* Callbag+Scan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Scan.swift"; path = "Callbag/Classes/Callbag+Scan.swift"; sourceTree = "<group>"; };
 		2E88C4442024D3035E2342A3883F0635 /* ActionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionKit.framework; path = ActionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		376C63683AAF45D9BA3EE1935BA703FB /* UIGestureRecognizer+ActionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+ActionKit.swift"; path = "ActionKit/UIGestureRecognizer+ActionKit.swift"; sourceTree = "<group>"; };
-		3EE4F8D83218D497D8B6CF3CF5CE9691 /* Callbag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Callbag.xcconfig; sourceTree = "<group>"; };
-		42CA67F53405AEEDA8D29C896B774EF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4710857246F6B44A67CC8754508E3667 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B83E0BF07203A196326DDEEE4FE848A /* Callbag+Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Map.swift"; path = "Callbag/Classes/Callbag+Map.swift"; sourceTree = "<group>"; };
+		4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		56472D172EF675E030DFBBC2F85D8F2F /* UIBarButtonItem+ActionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+ActionKit.swift"; path = "ActionKit/UIBarButtonItem+ActionKit.swift"; sourceTree = "<group>"; };
+		57FAD510E76868A0B5EDD955838ED6F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5DD28EA2F699B36E98A6A0E0F272C24D /* Callbag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Callbag-prefix.pch"; sourceTree = "<group>"; };
 		5E5898F92379FB92DE8A3FA3A3D93E40 /* ActionKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionKit-dummy.m"; sourceTree = "<group>"; };
 		5F716E0B9EE3A5DE7B72F5FA86DFEE24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6140404F160BDC779ED969D63F2F102A /* Pods-Callbag_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Callbag_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6280A61B146EB683819E86B11F8145C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		63BFFDC3E10D24700535A6077593C7B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6574A11FBA6AE3B74791058B4674F957 /* ActionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7275591B8DE6FBF1E0221B44791EDA0A /* Callbag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Callbag-dummy.m"; sourceTree = "<group>"; };
+		62C003F18BA17D7A8BB7D1DED602E6FC /* Callbag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Callbag-umbrella.h"; sourceTree = "<group>"; };
+		68D17DCD0D418A5BE3B32E29039249BD /* Callbag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callbag.swift; path = Callbag/Classes/Callbag.swift; sourceTree = "<group>"; };
+		73E4E753414EDC7E2B0E6EFFC4C11B06 /* Callbag+FromValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromValues.swift"; path = "Callbag/Classes/Callbag+FromValues.swift"; sourceTree = "<group>"; };
 		76DD7E9D75B746B6872C23005710A7DB /* ActionKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionKit-umbrella.h"; sourceTree = "<group>"; };
 		77F166A00C7CF4828D70CB148EC19A8C /* Pods-Callbag_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Callbag_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7A83C73855A976CB6EEBFEE0E43BE3D5 /* Pods-Callbag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Callbag_Example-umbrella.h"; sourceTree = "<group>"; };
 		7A90481B5876B73C3B11A65B842375D8 /* ActionKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionKit-prefix.pch"; sourceTree = "<group>"; };
 		7AB1CC1E1A1B31E9B1570F864C7CAC2B /* Callbag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Callbag.framework; path = Callbag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAB0DD3CE90F13B2DDBAD834842C1AD /* Callbag+Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Filter.swift"; path = "Callbag/Classes/Callbag+Filter.swift"; sourceTree = "<group>"; };
 		7C9A5E7D7EF2768BD2DAEC89E19A74F2 /* ActionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionKit.swift; path = ActionKit/ActionKit.swift; sourceTree = "<group>"; };
+		82EB01954AB7EED043F4ED18347E5D79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AAD459254ABEAA40309C01DDE26C64 /* Callbag+FromEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromEvent.swift"; path = "Callbag/Classes/Callbag+FromEvent.swift"; sourceTree = "<group>"; };
 		8E60649E4A15DBC49A8B53808FD89D4B /* ActionKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionKit.modulemap; sourceTree = "<group>"; };
 		900369C92DE0F65B076177522414560F /* Pods_Callbag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Callbag_Tests.framework; path = "Pods-Callbag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C20D100D48055F7206A5FC6DFEC79A /* Pods-Callbag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Callbag_Example.modulemap"; sourceTree = "<group>"; };
 		92EB466311125DBF818DEF1B61AE282E /* Pods-Callbag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Callbag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		934B06AF79EE91BC7E8A3879C321F2B2 /* Pods-Callbag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Callbag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97D1879B8978BA1323E83F52DA4ABA10 /* Callbag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Callbag.xcconfig; sourceTree = "<group>"; };
 		9F3CB9B681C535C9E83B1C0DE4D692CF /* Pods-Callbag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Callbag_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AA841D515E456A98BA1DC330FE3B0152 /* Callbag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Callbag.modulemap; sourceTree = "<group>"; };
+		A080D1F67A51D421FBB9CC840CFC4FAF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AEEFF2A42916BEE1799CD1BE5F7D8D36 /* Pods-Callbag_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Callbag_Tests-resources.sh"; sourceTree = "<group>"; };
 		B4181484E37EB4F081407C779B737DFC /* Pods-Callbag_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Callbag_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B8D663CC317B3500F16AB8581ED1E293 /* Callbag+FromInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromInterval.swift"; path = "Callbag/Classes/Callbag+FromInterval.swift"; sourceTree = "<group>"; };
+		BA19BA42263A42FDE564981E6C0ED686 /* Callbag+Foreach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Foreach.swift"; path = "Callbag/Classes/Callbag+Foreach.swift"; sourceTree = "<group>"; };
 		BB5ED101ACA2FB10BB8AC90777EAFA42 /* Pods-Callbag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Callbag_Tests.modulemap"; sourceTree = "<group>"; };
-		BEB513C175C788A98DE41413A26EDDCB /* Callbag+Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Map.swift"; path = "Callbag/Classes/Callbag+Map.swift"; sourceTree = "<group>"; };
-		BFC04DF88D8C27966B81896B0FE9C465 /* Callbag+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Array.swift"; path = "Callbag/Classes/Callbag+Array.swift"; sourceTree = "<group>"; };
-		C651FFB24D3F7FF3B161E5D24045A7FE /* Callbag+Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Filter.swift"; path = "Callbag/Classes/Callbag+Filter.swift"; sourceTree = "<group>"; };
+		BCEE388564E82CE3AD7B34FB4966DA07 /* ActionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7896ABA244D6781E2372F0464843563 /* Pods-Callbag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Callbag_Tests-dummy.m"; sourceTree = "<group>"; };
-		CE0E87FF4139B67E8F0273CA65F467A2 /* Callbag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Callbag.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CEED749ED88F2024BBAD9C062FE1A4A4 /* Callbag+FromEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromEvent.swift"; path = "Callbag/Classes/Callbag+FromEvent.swift"; sourceTree = "<group>"; };
+		C82C9B6B1BB12AAD63C9B9049D7149C9 /* Callbag+Skip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Skip.swift"; path = "Callbag/Classes/Callbag+Skip.swift"; sourceTree = "<group>"; };
 		CF88E31E4434AA36140C705406D59FC4 /* Pods-Callbag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Callbag_Example-dummy.m"; sourceTree = "<group>"; };
-		D149CC0BB4B798927DB4E72508ADAC44 /* Callbag+FromInterval.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromInterval.swift"; path = "Callbag/Classes/Callbag+FromInterval.swift"; sourceTree = "<group>"; };
+		CF95506BC657986C50540AA7914E4BFE /* Callbag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Callbag.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D15039D42A8649BC8697AA1B9AAA37EE /* UIControl+ActionKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIControl+ActionKit.swift"; path = "ActionKit/UIControl+ActionKit.swift"; sourceTree = "<group>"; };
+		D74868FF6744C0577EE98E7E56A083A3 /* Callbag+CombineLatest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+CombineLatest.swift"; path = "Callbag/Classes/Callbag+CombineLatest.swift"; sourceTree = "<group>"; };
+		D7D23437AFC0FB61E11DCA5A8F6B3608 /* Callbag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Callbag.modulemap; sourceTree = "<group>"; };
+		DE66D14D4D58A4E017EBA45C04CA2A34 /* Callbag+Take.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+Take.swift"; path = "Callbag/Classes/Callbag+Take.swift"; sourceTree = "<group>"; };
+		DF21C82B0BD8B11D8B60206B33E7FB7D /* Callbag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Callbag-dummy.m"; sourceTree = "<group>"; };
 		DF7AA1449870B49D3F06A8A0C5628A0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2655C61F162A1965A8DC3C4724CCDAA /* Pods-Callbag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Callbag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E2F1A0A100172A02C8B4114C743FC5EE /* Callbag+FromValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Callbag+FromValues.swift"; path = "Callbag/Classes/Callbag+FromValues.swift"; sourceTree = "<group>"; };
+		EBD67B64E5A2D1D48761CFDF5C6EADDD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EC0C9CFA91D49202D16F9C2196E04463 /* Pods-Callbag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Callbag_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EC31195FCA24253E79661ABABFA16843 /* ActionKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionKit.xcconfig; sourceTree = "<group>"; };
-		F13A293FE3EC10F92C84F4B8775FEEF4 /* Callbag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callbag.swift; path = Callbag/Classes/Callbag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,12 +143,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A728BECBDDA403782070ED3C71BD74A6 /* Frameworks */ = {
+		736A23935191E1F0E069742EF3664858 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0B2212D4C9171D593C1CEE633653BF4 /* ActionKit.framework in Frameworks */,
-				D3C9E04FABFE6874D706C56278A5FDBA /* Foundation.framework in Frameworks */,
+				CBA2CF543B70FD0F31A42DEC239EC8DD /* ActionKit.framework in Frameworks */,
+				1DA97120692C3785A5ED271C0B4D8492 /* Foundation.framework in Frameworks */,
+				A16F436743B184F839B30D0EA60033EF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +201,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		535BCE561B85A04AA4242D5D5A9E1EE7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7D23437AFC0FB61E11DCA5A8F6B3608 /* Callbag.modulemap */,
+				97D1879B8978BA1323E83F52DA4ABA10 /* Callbag.xcconfig */,
+				DF21C82B0BD8B11D8B60206B33E7FB7D /* Callbag-dummy.m */,
+				5DD28EA2F699B36E98A6A0E0F272C24D /* Callbag-prefix.pch */,
+				62C003F18BA17D7A8BB7D1DED602E6FC /* Callbag-umbrella.h */,
+				82EB01954AB7EED043F4ED18347E5D79 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Callbag";
+			sourceTree = "<group>";
+		};
+		544C495E6A0B95CC93E44BC17CF78074 /* Callbag */ = {
+			isa = PBXGroup;
+			children = (
+				68D17DCD0D418A5BE3B32E29039249BD /* Callbag.swift */,
+				192517E9A61A145755B3B974363CC791 /* Callbag+Array.swift */,
+				D74868FF6744C0577EE98E7E56A083A3 /* Callbag+CombineLatest.swift */,
+				7BAB0DD3CE90F13B2DDBAD834842C1AD /* Callbag+Filter.swift */,
+				BA19BA42263A42FDE564981E6C0ED686 /* Callbag+Foreach.swift */,
+				88AAD459254ABEAA40309C01DDE26C64 /* Callbag+FromEvent.swift */,
+				B8D663CC317B3500F16AB8581ED1E293 /* Callbag+FromInterval.swift */,
+				73E4E753414EDC7E2B0E6EFFC4C11B06 /* Callbag+FromValues.swift */,
+				4B83E0BF07203A196326DDEEE4FE848A /* Callbag+Map.swift */,
+				017B6850A1441FB9E3761A6E938BC6A5 /* Callbag+Merge.swift */,
+				28C0B44823B65A2E16770AB390EDCDE8 /* Callbag+Scan.swift */,
+				C82C9B6B1BB12AAD63C9B9049D7149C9 /* Callbag+Skip.swift */,
+				DE66D14D4D58A4E017EBA45C04CA2A34 /* Callbag+Take.swift */,
+				6F18C79B28F9F96D1DE25E8B9440F77E /* Pod */,
+				535BCE561B85A04AA4242D5D5A9E1EE7 /* Support Files */,
+			);
+			name = Callbag;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F18C79B28F9F96D1DE25E8B9440F77E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF95506BC657986C50540AA7914E4BFE /* Callbag.podspec */,
+				A080D1F67A51D421FBB9CC840CFC4FAF /* LICENSE */,
+				EBD67B64E5A2D1D48761CFDF5C6EADDD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9409C515BEB046E881C97E1FB50F5897 /* Development Pods */,
-				9F504804A6934ADFA6737055BD224381 /* Frameworks */,
+				CA332F9AE7291D086ADCC21F8D3A1C67 /* Development Pods */,
+				B852E93B2744F6DB9517326C2394307A /* Frameworks */,
 				85C7B5EB87938D1DA8DE6FF8A87B6B16 /* Pods */,
 				200841CB4BA320C22CF66C0C59EEB925 /* Products */,
 				8ED4940AE6AFC86FCEE670632FD86A19 /* Targets Support Files */,
@@ -212,26 +268,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8C547EF1B252F88CDF30B93D71095EE1 /* Callbag */ = {
-			isa = PBXGroup;
-			children = (
-				F13A293FE3EC10F92C84F4B8775FEEF4 /* Callbag.swift */,
-				BFC04DF88D8C27966B81896B0FE9C465 /* Callbag+Array.swift */,
-				13164D025577312AD52CB1B5E568D242 /* Callbag+CombineLatest.swift */,
-				C651FFB24D3F7FF3B161E5D24045A7FE /* Callbag+Filter.swift */,
-				25CE5C78C647E69C604C1183A9210792 /* Callbag+Foreach.swift */,
-				CEED749ED88F2024BBAD9C062FE1A4A4 /* Callbag+FromEvent.swift */,
-				D149CC0BB4B798927DB4E72508ADAC44 /* Callbag+FromInterval.swift */,
-				E2F1A0A100172A02C8B4114C743FC5EE /* Callbag+FromValues.swift */,
-				BEB513C175C788A98DE41413A26EDDCB /* Callbag+Map.swift */,
-				2166A73BEC2DD86E0032C4B59FED181B /* Callbag+Merge.swift */,
-				B6A1838038A554D5E10C090CAA922D91 /* Pod */,
-				9C9C7A155A6548838F3A79FD01A45310 /* Support Files */,
-			);
-			name = Callbag;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		8ED4940AE6AFC86FCEE670632FD86A19 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,35 +277,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9409C515BEB046E881C97E1FB50F5897 /* Development Pods */ = {
+		A5F64B3E4A0AA80BB5B0E61C3714FE3C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8C547EF1B252F88CDF30B93D71095EE1 /* Callbag */,
+				4DD46153FDE4800C32C00F607F619BF3 /* Foundation.framework */,
+				57FAD510E76868A0B5EDD955838ED6F8 /* UIKit.framework */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9C9C7A155A6548838F3A79FD01A45310 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AA841D515E456A98BA1DC330FE3B0152 /* Callbag.modulemap */,
-				3EE4F8D83218D497D8B6CF3CF5CE9691 /* Callbag.xcconfig */,
-				7275591B8DE6FBF1E0221B44791EDA0A /* Callbag-dummy.m */,
-				2190B12EF35E9FC01D3F31146522E503 /* Callbag-prefix.pch */,
-				189DBBB097A43C94619175A0405E4E3F /* Callbag-umbrella.h */,
-				42CA67F53405AEEDA8D29C896B774EF1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Callbag";
-			sourceTree = "<group>";
-		};
-		9F504804A6934ADFA6737055BD224381 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6574A11FBA6AE3B74791058B4674F957 /* ActionKit.framework */,
-				CF0C614DE7A198E12EE33B9B5839E7A6 /* iOS */,
-			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		ADE99BBD9CDE3F3824B10AF24D1EBF54 /* Pods-Callbag_Example */ = {
@@ -304,22 +318,21 @@
 			path = "../Target Support Files/ActionKit";
 			sourceTree = "<group>";
 		};
-		B6A1838038A554D5E10C090CAA922D91 /* Pod */ = {
+		B852E93B2744F6DB9517326C2394307A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE0E87FF4139B67E8F0273CA65F467A2 /* Callbag.podspec */,
-				6280A61B146EB683819E86B11F8145C3 /* LICENSE */,
-				63BFFDC3E10D24700535A6077593C7B4 /* README.md */,
+				BCEE388564E82CE3AD7B34FB4966DA07 /* ActionKit.framework */,
+				A5F64B3E4A0AA80BB5B0E61C3714FE3C /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF0C614DE7A198E12EE33B9B5839E7A6 /* iOS */ = {
+		CA332F9AE7291D086ADCC21F8D3A1C67 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				506BD81A93C6E62DE01156AFDF2B7C38 /* Foundation.framework */,
+				544C495E6A0B95CC93E44BC17CF78074 /* Callbag */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E8D062E494EBF4BA3A2E624CA9944AA6 /* ActionKit */ = {
@@ -362,29 +375,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AAD36E4591A2BBB72514048A69187B4 /* Headers */ = {
+		9A0BE3507999064CE80DFBAF86C9F325 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700ADC0D8D8E6FD684B8075A20AEFA20 /* Callbag-umbrella.h in Headers */,
+				B19F9A8139FC7A0A80B295D9E0764C1A /* Callbag-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BAFC033BB3B53BFC440D4D1C7047C88 /* Callbag */ = {
+		0A510BDB7DFE64538A1277DCB128182C /* Callbag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C23968573A774436E05BC574573664E /* Build configuration list for PBXNativeTarget "Callbag" */;
+			buildConfigurationList = 351B49332C3FEB20D551C94279A96C9C /* Build configuration list for PBXNativeTarget "Callbag" */;
 			buildPhases = (
-				91C247289101FFA036EC911C43E25629 /* Sources */,
-				A728BECBDDA403782070ED3C71BD74A6 /* Frameworks */,
-				8AAD36E4591A2BBB72514048A69187B4 /* Headers */,
+				D133F9163900C40A97EFDE8AEF08102C /* Sources */,
+				736A23935191E1F0E069742EF3664858 /* Frameworks */,
+				9A0BE3507999064CE80DFBAF86C9F325 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01D29FBA5DBFD8AA4F4046DBC09511E8 /* PBXTargetDependency */,
+				E30DA7E5E466494F430740B4339DCC8A /* PBXTargetDependency */,
 			);
 			name = Callbag;
 			productName = Callbag;
@@ -467,7 +480,7 @@
 			projectRoot = "";
 			targets = (
 				A5F5757B308AE1030961985F3E05CBA4 /* ActionKit */,
-				3BAFC033BB3B53BFC440D4D1C7047C88 /* Callbag */,
+				0A510BDB7DFE64538A1277DCB128182C /* Callbag */,
 				9D730CBE779B887BE48A5DB715832FF9 /* Pods-Callbag_Example */,
 				C9757F9C696E66E16E75EC84A2821577 /* Pods-Callbag_Tests */,
 			);
@@ -503,37 +516,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91C247289101FFA036EC911C43E25629 /* Sources */ = {
+		D133F9163900C40A97EFDE8AEF08102C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B758C05F7CC3EC9837F7902AEB9B710C /* Callbag+Array.swift in Sources */,
-				71AC1E0E9448CD2B645EE0717BFFF9E7 /* Callbag+CombineLatest.swift in Sources */,
-				503440F8C6F8176B1D16633B3046C363 /* Callbag+Filter.swift in Sources */,
-				95406B628A459622878228BA7CADCE9A /* Callbag+Foreach.swift in Sources */,
-				53602BEBBD24FB8593FCFC8DED5BE00C /* Callbag+FromEvent.swift in Sources */,
-				F933187C5C1137DC30AF5DEAFB19D2FC /* Callbag+FromInterval.swift in Sources */,
-				87F8B294D0BF85EA014354F5F7DEDF4F /* Callbag+FromValues.swift in Sources */,
-				C6412D8391732A760C3E3D51BE7CA667 /* Callbag+Map.swift in Sources */,
-				8B115349FCF94FB9C7718A597117E4FB /* Callbag+Merge.swift in Sources */,
-				FE9D93CA4DB193BF64BCD6DDAC408A77 /* Callbag-dummy.m in Sources */,
-				7CFABAAC14EAC20C1C8C91C8E97C918C /* Callbag.swift in Sources */,
+				6D5224BF482595C18A3FD6CFA6464F04 /* Callbag+Array.swift in Sources */,
+				0FD07897B9225253633887EFAF90E66C /* Callbag+CombineLatest.swift in Sources */,
+				100CE31CF3A1435677BC08BE36069E04 /* Callbag+Filter.swift in Sources */,
+				1AF279B46765B692A5ECEEAA56EC4BF8 /* Callbag+Foreach.swift in Sources */,
+				CCFF5A75D20DB949B210A901AD2B15C7 /* Callbag+FromEvent.swift in Sources */,
+				0ACC224CCCBBF8638E61144E3B3B24C7 /* Callbag+FromInterval.swift in Sources */,
+				882B77B07E5BC2474BF4825A8CC99516 /* Callbag+FromValues.swift in Sources */,
+				3A1EC5C3ADCFCC0692C532F0B5060357 /* Callbag+Map.swift in Sources */,
+				2920E2B8A870DC096C725ADA211622EB /* Callbag+Merge.swift in Sources */,
+				529D3A1D05721A569587676A3E7670CE /* Callbag+Scan.swift in Sources */,
+				5AD7015410D07C4BE27882CBC9E1F640 /* Callbag+Skip.swift in Sources */,
+				C72E7C7E0AAF3F0A44BC01778DF22853 /* Callbag+Take.swift in Sources */,
+				7BC857F6F547F2BE4BBDAE91A408DB04 /* Callbag-dummy.m in Sources */,
+				04F7B197E983BFC0317C939283630998 /* Callbag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01D29FBA5DBFD8AA4F4046DBC09511E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ActionKit;
-			target = A5F5757B308AE1030961985F3E05CBA4 /* ActionKit */;
-			targetProxy = A139C99892C2EE190850F7491A889878 /* PBXContainerItemProxy */;
-		};
 		2D3B2580E5F2B25DDD1902F1F43ACBEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Callbag;
-			target = 3BAFC033BB3B53BFC440D4D1C7047C88 /* Callbag */;
+			target = 0A510BDB7DFE64538A1277DCB128182C /* Callbag */;
 			targetProxy = C6D4A695FEB601D63E5CAAEE5AB9BC6A /* PBXContainerItemProxy */;
 		};
 		40F6C5777FB0259C78205ECB9F1395F5 /* PBXTargetDependency */ = {
@@ -548,41 +558,15 @@
 			target = 9D730CBE779B887BE48A5DB715832FF9 /* Pods-Callbag_Example */;
 			targetProxy = 808A36C3D494AE8AB9229DC59A915413 /* PBXContainerItemProxy */;
 		};
+		E30DA7E5E466494F430740B4339DCC8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ActionKit;
+			target = A5F5757B308AE1030961985F3E05CBA4 /* ActionKit */;
+			targetProxy = 8447AC639D81C94F6570CAC94785CD9B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1152F6D53F480E0977C9C99EE93DEB45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EE4F8D83218D497D8B6CF3CF5CE9691 /* Callbag.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Callbag/Callbag-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Callbag/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Callbag/Callbag.modulemap";
-				PRODUCT_MODULE_NAME = Callbag;
-				PRODUCT_NAME = Callbag;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1BD6D2A4D5A9EE42661A8291B69EFB81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22104AB1047434B552BF8E2A9743DF0E /* Pods-Callbag_Tests.debug.xcconfig */;
@@ -645,6 +629,38 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BDED1A887DC149F349E6B9688F64F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D1879B8978BA1323E83F52DA4ABA10 /* Callbag.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Callbag/Callbag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Callbag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Callbag/Callbag.modulemap";
+				PRODUCT_MODULE_NAME = Callbag;
+				PRODUCT_NAME = Callbag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -717,39 +733,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		83E9399ACC54DDD2C45D65FA65F80E48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EE4F8D83218D497D8B6CF3CF5CE9691 /* Callbag.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Callbag/Callbag-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Callbag/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Callbag/Callbag.modulemap";
-				PRODUCT_MODULE_NAME = Callbag;
-				PRODUCT_NAME = Callbag;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -835,6 +818,39 @@
 				MODULEMAP_FILE = "Target Support Files/ActionKit/ActionKit.modulemap";
 				PRODUCT_MODULE_NAME = ActionKit;
 				PRODUCT_NAME = ActionKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C5E936D31B5F4C0DF14AA376C31BDFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D1879B8978BA1323E83F52DA4ABA10 /* Callbag.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Callbag/Callbag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Callbag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Callbag/Callbag.modulemap";
+				PRODUCT_MODULE_NAME = Callbag;
+				PRODUCT_NAME = Callbag;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -951,20 +967,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		351B49332C3FEB20D551C94279A96C9C /* Build configuration list for PBXNativeTarget "Callbag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BDED1A887DC149F349E6B9688F64F7F /* Debug */,
+				8C5E936D31B5F4C0DF14AA376C31BDFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		370640FFA800C9EFCA9BF6A3E9848C95 /* Build configuration list for PBXNativeTarget "ActionKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F34E2A641D61C47269FCF3A67FAFB3C /* Debug */,
 				8B76FD5C1DAEE76AFBD7CF7699901A28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6C23968573A774436E05BC574573664E /* Build configuration list for PBXNativeTarget "Callbag" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1152F6D53F480E0977C9C99EE93DEB45 /* Debug */,
-				83E9399ACC54DDD2C45D65FA65F80E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

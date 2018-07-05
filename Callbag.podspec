@@ -11,26 +11,21 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = '👜 A standard for Swift callbacks that enables lightweight observables and iterables.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '👜 A standard for Swift callbacks that enables lightweight observables and iterables.'
 
-  s.homepage         = 'https://github.com/chuthin/swift-callbag'
+  s.homepage         = 'https://github.com/chuthin/Callbag/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chuthin' => 'thincv@live.com' }
-  s.source           = { :git => 'https://github.com/chuthin/swift-callbag.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chuthin/Callbag.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/dev_phone'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Callbag/Classes/**/*'
+
+  s.frameworks = 'UIKit' 
   s.dependency 'ActionKit'
   # s.resource_bundles = {
   #   'Callbag' => ['Callbag/Assets/*.png']
