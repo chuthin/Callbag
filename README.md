@@ -54,6 +54,7 @@ public class CounterViewController : UIViewController {
     }
 }
 ```swift
+
 ## Requirements
   - [ActionKit](https://github.com/ActionKit/ActionKit)
 ## Installation
@@ -61,7 +62,7 @@ public class CounterViewController : UIViewController {
 Callbag is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 pod 'Callbag'
-```
+
 ## References
   - [https://staltz.com/why-we-need-callbags.html](https://staltz.com/why-we-need-callbags.html)
   - [http://blog.krawaller.se/posts/callbags-introduction/](http://blog.krawaller.se/posts/callbags-introduction/)
