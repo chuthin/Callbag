@@ -17,6 +17,7 @@ public typealias Transform<T,O> = (@escaping Source<T>) -> Source<O>
 public enum PullState {
     case Pause
     case Resume
+    case End
 }
 
 public enum SourcePayload {
