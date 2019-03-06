@@ -36,8 +36,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 public class CounterViewController : UIViewController {
     @IBOutlet weak var increButton: UIButton!
     @IBOutlet weak var decreButton: UIButton!
-    
-    
     @IBOutlet weak var counterLabel: UILabel!
     
     public override func viewDidLoad() {
@@ -56,17 +54,12 @@ public class CounterViewController : UIViewController {
     }
 }
 ```swift
-
-
-
 ## Requirements
   - [ActionKit](https://github.com/ActionKit/ActionKit)
 ## Installation
 
 Callbag is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
-
-```ruby
 pod 'Callbag'
 ```
 ## References
