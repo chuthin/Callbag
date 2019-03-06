@@ -53,7 +53,7 @@ public class CounterViewController : UIViewController {
             }     
     }
 }
-```swift
+```
 
 ## Requirements
   - [ActionKit](https://github.com/ActionKit/ActionKit)
