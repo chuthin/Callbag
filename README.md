@@ -28,9 +28,36 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 ## Combination operators  
   - merge
   - combineLastest
-# Example
+## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+# Counter
+```swift
+public class CounterViewController : UIViewController {
+    @IBOutlet weak var increButton: UIButton!
+    @IBOutlet weak var decreButton: UIButton!
+    
+    
+    @IBOutlet weak var counterLabel: UILabel!
+    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let incre = Callbag.fromEvent(increButton, .touchUpInside)
+            .map{_ in 1}
+        let decre = Callbag.fromEvent(decreButton, .touchUpInside)
+            .map{_ in -1}
+        
+        Callbag.merge(incre,decre)
+            .scan(0){$0 + $1}
+            .forEach{ [weak self] value in
+                self?.counterLabel.text = "\(value)"
+            }     
+    }
+}
+```swift
+
+
 
 ## Requirements
   - [ActionKit](https://github.com/ActionKit/ActionKit)
