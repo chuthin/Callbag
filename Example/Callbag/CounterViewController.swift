@@ -23,13 +23,11 @@ public class CounterViewController : UIViewController {
             .map{_ in 1}
         let decre = Callbag.fromEvent(decreButton, .touchUpInside)
             .map{_ in -1}
-        var counter = 0
+        
         Callbag.merge(incre,decre)
+            .scan(0){$0 + $1}
             .forEach{ [weak self] value in
-                counter += value
-                self?.counterLabel.text = "\(counter)"
-            }
-        
-        
+                self?.counterLabel.text = "\(value)"
+            }     
     }
 }
