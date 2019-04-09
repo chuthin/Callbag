@@ -19,10 +19,10 @@ public enum Payload<T> {
 }
 
 infix operator ~>: AdditionPrecedence
-func ~><T>(source: Callbag<T>,sink:@escaping Callbag<T>) {
+public func ~><T>(source: Callbag<T>,sink:@escaping Callbag<T>) {
     return source(Payload<T>.start(sink))
 }
 
-func ~><T,O>(source: @escaping Callbag<T>,transfrom:Transform<T,O>) -> Callbag<O> {
+public func ~><T,O>(source: @escaping Callbag<T>,transfrom:Transform<T,O>) -> Callbag<O> {
     return transfrom(source)
 }

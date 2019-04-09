@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "Callbag"
-  spec.version      = "0.2.0"
+  spec.version      = "0.2.1"
   spec.summary      = "An implement Callbag.js"
   spec.description  = "An implement Callbag.js with Swift"
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Chu Thin" => "thincv@live.com" }
   spec.platform     = :ios, "10.0"
-
+  spec.swift_version = '5.0'
   spec.source       = { :git => "https://github.com/chuthin/Callbag.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Callbag/**/*.{swift}"
