@@ -1,6 +1,0 @@
-framework module Pods_Callbag_Tests {
-  umbrella header "Pods-Callbag_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

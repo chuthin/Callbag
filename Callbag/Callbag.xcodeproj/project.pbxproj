@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181327CE225CF3410052F16A /* Callbag.h in Headers */ = {isa = PBXBuildFile; fileRef = 181327CC225CF3410052F16A /* Callbag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		181327D7225CF3C50052F16A /* Callbag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327D6225CF3C50052F16A /* Callbag.swift */; };
+		181327E4225CF43B0052F16A /* Callbag+FromInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327D8225CF43A0052F16A /* Callbag+FromInterval.swift */; };
+		181327E5225CF43B0052F16A /* Callbag+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327D9225CF43A0052F16A /* Callbag+Merge.swift */; };
+		181327E6225CF43B0052F16A /* Callbag+CombineLatest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DA225CF43A0052F16A /* Callbag+CombineLatest.swift */; };
+		181327E7225CF43B0052F16A /* Callbag+Foreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DB225CF43A0052F16A /* Callbag+Foreach.swift */; };
+		181327E8225CF43B0052F16A /* Callbag+FromEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DC225CF43A0052F16A /* Callbag+FromEvent.swift */; };
+		181327E9225CF43B0052F16A /* Callbag+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DD225CF43A0052F16A /* Callbag+Array.swift */; };
+		181327EA225CF43B0052F16A /* Callbag+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DE225CF43A0052F16A /* Callbag+Map.swift */; };
+		181327EB225CF43B0052F16A /* Callbag+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327DF225CF43A0052F16A /* Callbag+Filter.swift */; };
+		181327EC225CF43B0052F16A /* Callbag+Take.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E0225CF43A0052F16A /* Callbag+Take.swift */; };
+		181327ED225CF43B0052F16A /* Callbag+FromValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E1225CF43A0052F16A /* Callbag+FromValues.swift */; };
+		181327EE225CF43B0052F16A /* Callbag+Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E2225CF43A0052F16A /* Callbag+Scan.swift */; };
+		181327EF225CF43B0052F16A /* Callbag+Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E3225CF43B0052F16A /* Callbag+Skip.swift */; };
+		B953E5FC47762F0BB5FC9894 /* Pods_Callbag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF301BD9347729BC93B6F1E /* Pods_Callbag.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		181327C9225CF3410052F16A /* Callbag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Callbag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181327CC225CF3410052F16A /* Callbag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Callbag.h; sourceTree = "<group>"; };
+		181327CD225CF3410052F16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181327D6225CF3C50052F16A /* Callbag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Callbag.swift; sourceTree = "<group>"; };
+		181327D8225CF43A0052F16A /* Callbag+FromInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+FromInterval.swift"; sourceTree = "<group>"; };
+		181327D9225CF43A0052F16A /* Callbag+Merge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Merge.swift"; sourceTree = "<group>"; };
+		181327DA225CF43A0052F16A /* Callbag+CombineLatest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+CombineLatest.swift"; sourceTree = "<group>"; };
+		181327DB225CF43A0052F16A /* Callbag+Foreach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Foreach.swift"; sourceTree = "<group>"; };
+		181327DC225CF43A0052F16A /* Callbag+FromEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+FromEvent.swift"; sourceTree = "<group>"; };
+		181327DD225CF43A0052F16A /* Callbag+Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Array.swift"; sourceTree = "<group>"; };
+		181327DE225CF43A0052F16A /* Callbag+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Map.swift"; sourceTree = "<group>"; };
+		181327DF225CF43A0052F16A /* Callbag+Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Filter.swift"; sourceTree = "<group>"; };
+		181327E0225CF43A0052F16A /* Callbag+Take.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Take.swift"; sourceTree = "<group>"; };
+		181327E1225CF43A0052F16A /* Callbag+FromValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+FromValues.swift"; sourceTree = "<group>"; };
+		181327E2225CF43A0052F16A /* Callbag+Scan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Scan.swift"; sourceTree = "<group>"; };
+		181327E3225CF43B0052F16A /* Callbag+Skip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Skip.swift"; sourceTree = "<group>"; };
+		665D3A073A6AFD9F6B70BB52 /* Pods-Callbag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag.release.xcconfig"; path = "Target Support Files/Pods-Callbag/Pods-Callbag.release.xcconfig"; sourceTree = "<group>"; };
+		95C782BF9511A318517ED89E /* Pods-Callbag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag.debug.xcconfig"; path = "Target Support Files/Pods-Callbag/Pods-Callbag.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF301BD9347729BC93B6F1E /* Pods_Callbag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callbag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181327C6225CF3410052F16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B953E5FC47762F0BB5FC9894 /* Pods_Callbag.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181327BF225CF3410052F16A = {
+			isa = PBXGroup;
+			children = (
+				181327CB225CF3410052F16A /* Callbag */,
+				181327CA225CF3410052F16A /* Products */,
+				98D5AE663286C7353338E450 /* Pods */,
+				7688D2FB631926C23882C996 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181327CA225CF3410052F16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181327C9225CF3410052F16A /* Callbag.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181327CB225CF3410052F16A /* Callbag */ = {
+			isa = PBXGroup;
+			children = (
+				181327DD225CF43A0052F16A /* Callbag+Array.swift */,
+				181327DA225CF43A0052F16A /* Callbag+CombineLatest.swift */,
+				181327DF225CF43A0052F16A /* Callbag+Filter.swift */,
+				181327DB225CF43A0052F16A /* Callbag+Foreach.swift */,
+				181327DC225CF43A0052F16A /* Callbag+FromEvent.swift */,
+				181327D8225CF43A0052F16A /* Callbag+FromInterval.swift */,
+				181327E1225CF43A0052F16A /* Callbag+FromValues.swift */,
+				181327DE225CF43A0052F16A /* Callbag+Map.swift */,
+				181327D9225CF43A0052F16A /* Callbag+Merge.swift */,
+				181327E2225CF43A0052F16A /* Callbag+Scan.swift */,
+				181327E3225CF43B0052F16A /* Callbag+Skip.swift */,
+				181327E0225CF43A0052F16A /* Callbag+Take.swift */,
+				181327D6225CF3C50052F16A /* Callbag.swift */,
+				181327CC225CF3410052F16A /* Callbag.h */,
+				181327CD225CF3410052F16A /* Info.plist */,
+			);
+			path = Callbag;
+			sourceTree = "<group>";
+		};
+		7688D2FB631926C23882C996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF301BD9347729BC93B6F1E /* Pods_Callbag.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D5AE663286C7353338E450 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95C782BF9511A318517ED89E /* Pods-Callbag.debug.xcconfig */,
+				665D3A073A6AFD9F6B70BB52 /* Pods-Callbag.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		181327C4225CF3410052F16A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181327CE225CF3410052F16A /* Callbag.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		181327C8225CF3410052F16A /* Callbag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181327D1225CF3410052F16A /* Build configuration list for PBXNativeTarget "Callbag" */;
+			buildPhases = (
+				4AB304E11AF4FF60ED991B1E /* [CP] Check Pods Manifest.lock */,
+				181327C4225CF3410052F16A /* Headers */,
+				181327C5225CF3410052F16A /* Sources */,
+				181327C6225CF3410052F16A /* Frameworks */,
+				181327C7225CF3410052F16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Callbag;
+			productName = Callbag;
+			productReference = 181327C9225CF3410052F16A /* Callbag.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181327C0225CF3410052F16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = chuthin;
+				TargetAttributes = {
+					181327C8225CF3410052F16A = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 181327C3225CF3410052F16A /* Build configuration list for PBXProject "Callbag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181327BF225CF3410052F16A;
+			productRefGroup = 181327CA225CF3410052F16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181327C8225CF3410052F16A /* Callbag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181327C7225CF3410052F16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB304E11AF4FF60ED991B1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Callbag-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181327C5225CF3410052F16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181327D7225CF3C50052F16A /* Callbag.swift in Sources */,
+				181327E9225CF43B0052F16A /* Callbag+Array.swift in Sources */,
+				181327EB225CF43B0052F16A /* Callbag+Filter.swift in Sources */,
+				181327E6225CF43B0052F16A /* Callbag+CombineLatest.swift in Sources */,
+				181327EA225CF43B0052F16A /* Callbag+Map.swift in Sources */,
+				181327EC225CF43B0052F16A /* Callbag+Take.swift in Sources */,
+				181327E5225CF43B0052F16A /* Callbag+Merge.swift in Sources */,
+				181327EE225CF43B0052F16A /* Callbag+Scan.swift in Sources */,
+				181327E8225CF43B0052F16A /* Callbag+FromEvent.swift in Sources */,
+				181327EF225CF43B0052F16A /* Callbag+Skip.swift in Sources */,
+				181327ED225CF43B0052F16A /* Callbag+FromValues.swift in Sources */,
+				181327E4225CF43B0052F16A /* Callbag+FromInterval.swift in Sources */,
+				181327E7225CF43B0052F16A /* Callbag+Foreach.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		181327CF225CF3410052F16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		181327D0225CF3410052F16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		181327D2225CF3410052F16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C782BF9511A318517ED89E /* Pods-Callbag.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Callbag/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.6camgroup.Callbag;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181327D3225CF3410052F16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 665D3A073A6AFD9F6B70BB52 /* Pods-Callbag.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Callbag/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.6camgroup.Callbag;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181327C3225CF3410052F16A /* Build configuration list for PBXProject "Callbag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181327CF225CF3410052F16A /* Debug */,
+				181327D0225CF3410052F16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181327D1225CF3410052F16A /* Build configuration list for PBXNativeTarget "Callbag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181327D2225CF3410052F16A /* Debug */,
+				181327D3225CF3410052F16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181327C0225CF3410052F16A /* Project object */;
+}

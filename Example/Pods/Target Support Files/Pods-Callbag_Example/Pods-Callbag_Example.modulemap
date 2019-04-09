@@ -1,6 +1,0 @@
-framework module Pods_Callbag_Example {
-  umbrella header "Pods-Callbag_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
