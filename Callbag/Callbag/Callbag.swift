@@ -18,7 +18,7 @@ public enum Payload<T> {
     case end
 }
 
-infix operator ~>: AdditionPrecedence
+infix operator ~> : AdditionPrecedence
 public func ~><T>(source: Callbag<T>,sink:@escaping Callbag<T>) {
     return source(Payload<T>.start(sink))
 }
