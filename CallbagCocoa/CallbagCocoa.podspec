@@ -14,5 +14,6 @@ Pod::Spec.new do |spec|
   spec.framework  = "UIKit"
   # spec.framework  = "SomeFramework"
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency "Callbag"
   spec.dependency "ActionKit"
 end

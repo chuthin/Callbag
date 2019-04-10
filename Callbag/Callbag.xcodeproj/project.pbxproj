@@ -21,6 +21,7 @@
 		181327ED225CF43B0052F16A /* Callbag+FromValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E1225CF43A0052F16A /* Callbag+FromValues.swift */; };
 		181327EE225CF43B0052F16A /* Callbag+Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E2225CF43A0052F16A /* Callbag+Scan.swift */; };
 		181327EF225CF43B0052F16A /* Callbag+Skip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181327E3225CF43B0052F16A /* Callbag+Skip.swift */; };
+		18CE10F9225E56F100476E57 /* Callbag+StartWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE10F8225E56F100476E57 /* Callbag+StartWith.swift */; };
 		B953E5FC47762F0BB5FC9894 /* Pods_Callbag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF301BD9347729BC93B6F1E /* Pods_Callbag.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		181327E1225CF43A0052F16A /* Callbag+FromValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+FromValues.swift"; sourceTree = "<group>"; };
 		181327E2225CF43A0052F16A /* Callbag+Scan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Scan.swift"; sourceTree = "<group>"; };
 		181327E3225CF43B0052F16A /* Callbag+Skip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+Skip.swift"; sourceTree = "<group>"; };
+		18CE10F8225E56F100476E57 /* Callbag+StartWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Callbag+StartWith.swift"; sourceTree = "<group>"; };
 		665D3A073A6AFD9F6B70BB52 /* Pods-Callbag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag.release.xcconfig"; path = "Target Support Files/Pods-Callbag/Pods-Callbag.release.xcconfig"; sourceTree = "<group>"; };
 		95C782BF9511A318517ED89E /* Pods-Callbag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Callbag.debug.xcconfig"; path = "Target Support Files/Pods-Callbag/Pods-Callbag.debug.xcconfig"; sourceTree = "<group>"; };
 		9AF301BD9347729BC93B6F1E /* Pods_Callbag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Callbag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		181327CB225CF3410052F16A /* Callbag */ = {
 			isa = PBXGroup;
 			children = (
+				18CE10F8225E56F100476E57 /* Callbag+StartWith.swift */,
 				181327DD225CF43A0052F16A /* Callbag+Array.swift */,
 				181327DA225CF43A0052F16A /* Callbag+CombineLatest.swift */,
 				181327DF225CF43A0052F16A /* Callbag+Filter.swift */,
@@ -112,7 +115,6 @@
 				95C782BF9511A318517ED89E /* Pods-Callbag.debug.xcconfig */,
 				665D3A073A6AFD9F6B70BB52 /* Pods-Callbag.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -224,6 +226,7 @@
 				181327D7225CF3C50052F16A /* Callbag.swift in Sources */,
 				181327E9225CF43B0052F16A /* Callbag+Array.swift in Sources */,
 				181327EB225CF43B0052F16A /* Callbag+Filter.swift in Sources */,
+				18CE10F9225E56F100476E57 /* Callbag+StartWith.swift in Sources */,
 				181327E6225CF43B0052F16A /* Callbag+CombineLatest.swift in Sources */,
 				181327EA225CF43B0052F16A /* Callbag+Map.swift in Sources */,
 				181327EC225CF43B0052F16A /* Callbag+Take.swift in Sources */,

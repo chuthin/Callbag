@@ -14,6 +14,9 @@
 		18132804225D016F0052F16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18132803225D016F0052F16A /* Assets.xcassets */; };
 		18132807225D016F0052F16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18132805225D016F0052F16A /* LaunchScreen.storyboard */; };
 		18132812225D016F0052F16A /* CallbagExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18132811225D016F0052F16A /* CallbagExampleUITests.swift */; };
+		1817F996225E4BF600591421 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F995225E4BF600591421 /* BasicViewController.swift */; };
+		1817F998225E4E0A00591421 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F997225E4E0A00591421 /* CounterViewController.swift */; };
+		1817F99A225E500700591421 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F999225E500700591421 /* LoginViewController.swift */; };
 		8E3A7003B6D85E57390CCA68 /* Pods_CallbagExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0F547F96BEEDCD2F69D592 /* Pods_CallbagExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		1813280D225D016F0052F16A /* CallbagExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallbagExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18132811225D016F0052F16A /* CallbagExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbagExampleUITests.swift; sourceTree = "<group>"; };
 		18132813225D016F0052F16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1817F995225E4BF600591421 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		1817F997225E4E0A00591421 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		1817F999225E500700591421 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		423CA3B4F3E55247933F579B /* Pods-CallbagExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallbagExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-CallbagExampleUITests/Pods-CallbagExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4BA16DF3FCCCE8C7B270D079 /* Pods-CallbagExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallbagExample.debug.xcconfig"; path = "Target Support Files/Pods-CallbagExample/Pods-CallbagExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81DB2C125A3A1A34B781B0B4 /* Pods_CallbagExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallbagExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +80,6 @@
 				DBFEEBC66FB9E5A6B57B3792 /* Pods-CallbagExampleUITests.debug.xcconfig */,
 				423CA3B4F3E55247933F579B /* Pods-CallbagExampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +112,9 @@
 				18132803225D016F0052F16A /* Assets.xcassets */,
 				18132805225D016F0052F16A /* LaunchScreen.storyboard */,
 				18132808225D016F0052F16A /* Info.plist */,
+				1817F995225E4BF600591421 /* BasicViewController.swift */,
+				1817F997225E4E0A00591421 /* CounterViewController.swift */,
+				1817F999225E500700591421 /* LoginViewController.swift */,
 			);
 			path = CallbagExample;
 			sourceTree = "<group>";
@@ -262,6 +270,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-CallbagExample/Pods-CallbagExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActionKit/ActionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Callbag/Callbag.framework",
+				"${BUILT_PRODUCTS_DIR}/CallbagCocoa/CallbagCocoa.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -269,6 +278,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Callbag.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CallbagCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -305,6 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				181327FF225D016E0052F16A /* ViewController.swift in Sources */,
+				1817F998225E4E0A00591421 /* CounterViewController.swift in Sources */,
+				1817F996225E4BF600591421 /* BasicViewController.swift in Sources */,
+				1817F99A225E500700591421 /* LoginViewController.swift in Sources */,
 				181327FD225D016E0052F16A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
