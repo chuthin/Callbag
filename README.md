@@ -9,7 +9,7 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 # Specification
   (Payload\<T\>) -> Void
   
-  Payload is sum type (start|data|end)
+  Payload is sum type (**start**|**data**|**end**)
 # Functions have been implemented
 
 ## Source factories
