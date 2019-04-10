@@ -35,6 +35,33 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+# Reactive programming examples
+
+Pick the first 5 odd numbers from a clock that ticks every second, then start observing them:
+```swift
+   fromInterval(1)
+      *> map{ $0 + 1}
+      *> filter{ $0 % 2 != 0}
+      *> take(5)
+      *> forEach{ print($0)}
+   //1
+   //3
+   //5
+   //7
+   //9
+```
+From a array
+```swift
+    fromArray([1,2,3,4,5,6,7,8,9]) // 1, 2, 3, 4, 5, 6, 7, 8, 9,
+       *> filter{ $0 % 2 == 0}    // 2, 4, 6, 8
+       *> map { $0 * 2}           // 4, 8, 12, 16
+       *> forEach{ print($0)}
+        
+    //4
+    //8
+    //12
+    //16
+```
 # Counter
 ```swift
 public class CounterViewController : UIViewController {
