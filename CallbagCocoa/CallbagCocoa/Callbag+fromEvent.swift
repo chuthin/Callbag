@@ -1,27 +1,28 @@
 //
-//  Callbag+FromEvent.swift
-//  ActionKit
+//  Callbag+fromEvent.swift
+//  CallbagCocoa
 //
-//  Created by chuthin on 6/21/18.
-//  Copyright © 2018 chuthin. All rights reserved.
+//  Created by chuthin on 4/10/19.
+//  Copyright © 2019 chuthin. All rights reserved.
 //
 
 import Foundation
 import ActionKit
+import Callbag
 
 public typealias Control = UIKit.UIControl
 public typealias ControlEvents = UIKit.UIControl.Event
 public typealias EventCallback = (Control) -> Void
 
 public func fromEvent(_ control:Control, _ controlEvents:ControlEvents) -> Callbag<Void> {
-    return { payload in 
+    return { payload in
         if case .start(let tb) = payload {
             control.addControlEvent(controlEvents, { _ in
                 tb(.data(()))
             })
         }
         else if case .end = payload {
-             control.removeControlEvent(controlEvents)
+            control.removeControlEvent(controlEvents)
         }
     }
 }
