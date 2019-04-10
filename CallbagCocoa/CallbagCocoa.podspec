@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = "Callbag"
-  spec.version      = "0.2.2"
+  spec.name         = "CallbagCocoa"
+  spec.version      = "0.2.3"
   spec.summary      = "An implement Callbag.js with Cocoa"
   spec.description  = "An implement Callbag.js with Swift and Cocoa"
 
