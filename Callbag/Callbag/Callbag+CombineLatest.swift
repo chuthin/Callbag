@@ -7,6 +7,41 @@
 //
 
 import Foundation
+
+public func combineLastest<L,R,O> ( _ left:@escaping Callbag<L>, _ right:@escaping Callbag<R>) -> (@escaping (L,R) -> O) -> Callbag<O> {
+    return { fn in
+        return { payload in
+            var lastL:L?
+            var lastR:R?
+            if case .start(let tb) = payload  {
+                left(.start({ payloadLeft in
+                    if case .data(let dataLeft) = payloadLeft {
+                        lastL = dataLeft
+                        if let l = lastL, let r = lastR {
+                            tb(.data(fn(l,r)))
+                        }
+                    }
+                    else if case .end = payloadLeft{
+                        tb(.end)
+                    }
+                }))
+                
+                right(.start({ payloadRight in
+                    if case .data(let dataRight) = payloadRight {
+                        lastR = dataRight
+                        if let l = lastL, let r = lastR {
+                             tb(.data(fn(l,r)))
+                        }
+                    }
+                    else if case .end = payloadRight{
+                        tb(.end)
+                    }
+                }))
+            }
+        }
+    }
+}
+
 /*
 extension Callbag where T == Any {
     public static func combineLastest<T1,T2,T>(_ callbag1:Callbag<T1>,_ callbag2:Callbag<T2>,fn:@escaping(T1,T2) -> T) -> Callbag<T> {
