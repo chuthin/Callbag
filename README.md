@@ -53,7 +53,7 @@ public class CounterViewController : UIViewController {
 ```
 
 ## Requirements
-  - [ActionKit](https://github.com/ActionKit/ActionKit) for CallbagCoca
+  - [ActionKit](https://github.com/ActionKit/ActionKit) for CallbagCocoa
 ## Installation
 
 Callbag is available through [CocoaPods](https://cocoapods.org). To install
