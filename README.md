@@ -6,8 +6,11 @@
 [![Platform](https://img.shields.io/cocoapods/p/Callbag.svg?style=flat)](https://cocoapods.org/pods/Callbag)
 
 This is an attempt to build [Callbag](https://github.com/callbag/callbag) protocol founded by [André Staltz](https://github.com/staltz) in Swift.
-
-#  Functions have been implemented
+# Specification
+  (Payload\<T\>) -> Void
+  
+  Payload is sum type (start|data|end)
+# Functions have been implemented
 
 ## Source factories
   - fromValues
