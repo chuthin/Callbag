@@ -1,0 +1,16 @@
+PODS:
+  - Callbag (0.2.3)
+
+DEPENDENCIES:
+  - Callbag (from `../Callbag/`)
+
+EXTERNAL SOURCES:
+  Callbag:
+    :path: "../Callbag/"
+
+SPEC CHECKSUMS:
+  Callbag: 1246b4bfe8f529f0768690dc1cab0520d80ea856
+
+PODFILE CHECKSUM: f74fa69930eb558083970b44b8c8c952ad991a99
+
+COCOAPODS: 1.9.1

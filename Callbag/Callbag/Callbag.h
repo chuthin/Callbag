@@ -2,11 +2,11 @@
 //  Callbag.h
 //  Callbag
 //
-//  Created by chuthin on 4/9/19.
-//  Copyright © 2019 chuthin. All rights reserved.
+//  Created by Chu Thin on 7/31/20.
+//  Copyright © 2020 Chu Thin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Callbag.
 FOUNDATION_EXPORT double CallbagVersionNumber;
