@@ -8,10 +8,8 @@
 This is an attempt to build [Callbag](https://github.com/callbag/callbag) protocol founded by [André Staltz](https://github.com/staltz) in Swift.
 # Specification
 ```swift
-  Talkback = (_ payload:Any?) -> Void
-  
-  Sink<T> = (_ payload:Payload<T>) -> Void
-  
+  Talkback  = (_ payload:Any?) -> Void
+  Sink<T>   = (_ payload:Payload<T>) -> Void
   Source<T> = (_ sink:@escaping Sink<T>) -> Void;
   ```
 # Functions have been implemented
