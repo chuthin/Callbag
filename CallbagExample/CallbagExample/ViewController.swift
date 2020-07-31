@@ -14,31 +14,31 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let _ = fromArray([1,2,3])
-            +> filter {$0 % 2 != 0}
-            +> map {$0 * 2}
-            +> subscribe(onData: {
+            => filter {$0 % 2 != 0}
+            => map {$0 * 2}
+            => subscribe(onData: {
                 print($0)
             })
         print("------------------")
         let _ = fromArray([[1,2,3,4],[2,3,5,8]])
-            +> flatmap{ value -> Source<Int> in
+            => flatmap{ value -> Source<Int> in
                 return fromArray(value)
             }
-            +> filter {$0 % 2 != 0}
-            +> map {$0 * 2}
-            +> subscribe(onData: {
+            => filter {$0 % 2 != 0}
+            => map {$0 * 2}
+            => subscribe(onData: {
                 print($0)
             })
         print("------------------")
         let subject:Subject<Int> = makeSubject()
         let r1 = fromSubject(subject)
-            +> subscribe(onData: {
+            => subscribe(onData: {
                 
                 print("r1: \($0)")
             })
         
         let r2 = fromSubject(subject)
-            +> subscribe(onData: {
+            => subscribe(onData: {
                 print("r2: \($0)")
             })
         
@@ -51,13 +51,13 @@ class ViewController: UIViewController {
         print("------------------")
         let subject2 = makeReplaySubject(2)
         let _ = fromSubject(subject2)
-            +> subscribe(onData: {
+            => subscribe(onData: {
                 print("r3 \($0)")
             })
         subject2(.data(3))
         
         let _ = fromSubject(subject2)
-            +> subscribe(onData: {
+            => subscribe(onData: {
                 print("r4 \($0)")
             })
         

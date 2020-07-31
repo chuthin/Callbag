@@ -8,12 +8,12 @@
 
 import Foundation
 
-infix operator +>: AdditionPrecedence
-public func +><T>(source: @escaping Source<T>,sink:@escaping Subscribable<T>) -> Dispose{
+infix operator =>: AdditionPrecedence
+public func =><T>(source: @escaping Source<T>,sink:@escaping Subscribable<T>) -> Dispose{
     return sink(source)
 }
 
-public func +><A,B>(source: @escaping Source<A>,transfrom:@escaping Operator<A,B>) -> Source<B>{
+public func =><A,B>(source: @escaping Source<A>,transfrom:@escaping Operator<A,B>) -> Source<B>{
     return transfrom(source)
 }
 
