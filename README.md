@@ -78,6 +78,4 @@ pod 'Callbag'
   - [http://blog.krawaller.se/posts/callbags-introduction/](http://blog.krawaller.se/posts/callbags-introduction/)
   - [http://blog.krawaller.se/posts/explaining-callbags-via-typescript-definitions/](http://blog.krawaller.se/posts/explaining-callbags-via-typescript-definitions/)
   - [https://wonka.kitten.sh/](https://wonka.kitten.sh/)
-## License
 
-Callbag is available under the MIT license. See the LICENSE file for more info.
