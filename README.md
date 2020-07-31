@@ -44,10 +44,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Pick the first 5 odd numbers from a clock that ticks every second, then start observing them:
 ```swift
    fromInterval(1)
-      +> map{ $0 + 1}
-      +> filter{ $0 % 2 != 0}
-      +> take(5)
-      +> forEach{ print($0)}
+      => map{ $0 + 1}
+      => filter{ $0 % 2 != 0}
+      => take(5)
+      => forEach{ print($0)}
    //1
    //3
    //5
@@ -57,9 +57,9 @@ Pick the first 5 odd numbers from a clock that ticks every second, then start ob
 From a array
 ```swift
     fromArray([1,2,3,4,5,6,7,8,9]) // 1, 2, 3, 4, 5, 6, 7, 8, 9,
-       +> filter{ $0 % 2 == 0}    // 2, 4, 6, 8
-       +> map { $0 * 2}           // 4, 8, 12, 16
-       +> subscribe{ print($0)}
+       => filter{ $0 % 2 == 0}    // 2, 4, 6, 8
+       => map { $0 * 2}           // 4, 8, 12, 16
+       => subscribe{ print($0)}
         
     //4
     //8
