@@ -26,6 +26,23 @@ public func skip<T>(_ n:Int) ->  Operator<T,T> {
     }
 }
 
+public func skipUntil<T>(_ f:@escaping (T)->Bool) ->  Operator<T,T> {
+    return { source in
+        return { sink in
+            source({ payload in
+                if case .data(let d) = payload {
+                    if(!(f(d))){
+                        sink(payload)
+                    }
+                }
+                else {
+                    sink(payload)
+                }
+            })
+        }
+    }
+}
+
 
 public func last<T>() -> Operator<T,T> {
     return { source in
