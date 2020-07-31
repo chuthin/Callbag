@@ -14,19 +14,26 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
   Source<T> = (_ sink:@escaping Sink<T>) -> Void;
 # Functions have been implemented
 
-## Source factories
-  - fromArrays
+## Factories
+  - fromArray
   - fromInterval
   - fromSubject
+  - makeReplaySubject
+  - makeSubject
+  - create
+  - empty
+  - never
 ## Sink factories
-  - forEach
-## Transformation operators
+  - subscribe
+## Operators
   - map
+  - flatmap
   - filter
   - take
+  - first
   - skip
-  - scan
-## Combination operators  
+  - last
+  - scan 
   - merge
   - combine
 ## Example
