@@ -7,31 +7,35 @@
 
 This is an attempt to build [Callbag](https://github.com/callbag/callbag) protocol founded by [André Staltz](https://github.com/staltz) in Swift.
 # Specification
-  (Payload\<T\>) -> Void
-  
-  Payload is sum type (**start**|**data**|**end**)
+```swift
+  Talkback  = (_ payload:Any?) -> Void
+  Sink<T>   = (_ payload:Payload<T>) -> Void
+  Source<T> = (_ sink:@escaping Sink<T>) -> Void;
+  ```
 # Functions have been implemented
 
-## Source factories
-  - fromValues
-  - fromArrays
+## Factories
+  - fromArray
   - fromInterval
-  - fromEvent
-  - textFrom
+  - fromSubject
+  - makeReplaySubject
+  - makeSubject
+  - create
+  - empty
+  - never
 ## Sink factories
-  - forEach
-## Transformation operators
+  - subscribe
+## Operators
   - map
+  - flatmap
   - filter
   - take
-  - takeUntil
+  - first
   - skip
-  - skipUntil
-  - scan
-  - startWith
-## Combination operators  
+  - last
+  - scan 
   - merge
-  - combineLastest
+  - combine
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -40,10 +44,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Pick the first 5 odd numbers from a clock that ticks every second, then start observing them:
 ```swift
    fromInterval(1)
-      *> map{ $0 + 1}
-      *> filter{ $0 % 2 != 0}
-      *> take(5)
-      *> forEach{ print($0)}
+      +> map{ $0 + 1}
+      +> filter{ $0 % 2 != 0}
+      +> take(5)
+      +> forEach{ print($0)}
    //1
    //3
    //5
@@ -53,44 +57,21 @@ Pick the first 5 odd numbers from a clock that ticks every second, then start ob
 From a array
 ```swift
     fromArray([1,2,3,4,5,6,7,8,9]) // 1, 2, 3, 4, 5, 6, 7, 8, 9,
-       *> filter{ $0 % 2 == 0}    // 2, 4, 6, 8
-       *> map { $0 * 2}           // 4, 8, 12, 16
-       *> forEach{ print($0)}
+       +> filter{ $0 % 2 == 0}    // 2, 4, 6, 8
+       +> map { $0 * 2}           // 4, 8, 12, 16
+       +> subscribe{ print($0)}
         
     //4
     //8
     //12
     //16
 ```
-# Counter
-```swift
-public class CounterViewController : UIViewController {
-    @IBOutlet weak var incrementButton: UIButton!
-    @IBOutlet weak var decrementButton: UIButton!
-    @IBOutlet weak var counterLabel: UILabel!
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        let increment = fromEvent(incrementButton, .touchUpInside) *> map { _ in 1}
-        let decrement = fromEvent(decrementButton, .touchUpInside) *> map { _ in -1}
-        
-        merge(increment,decrement)
-            *> scan(0){ $0 + $1}
-            *> forEach {[weak self] value in
-                self?.counterLabel.text = String(value)
-        }
-    }
-}
-```
-
-## Requirements
-  - [ActionKit](https://github.com/ActionKit/ActionKit) for CallbagCocoa
 ## Installation
 
 Callbag is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 ```ruby
 pod 'Callbag'
-pod 'CallbagCocoa'
 ```
 ## References
   - [https://staltz.com/why-we-need-callbags.html](https://staltz.com/why-we-need-callbags.html)
