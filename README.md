@@ -10,7 +10,7 @@ This is an attempt to build [Callbag](https://github.com/callbag/callbag) protoc
 ```swift
   Talkback  = (_ payload:Any?) -> Void
   Sink<T>   = (_ payload:Payload<T>) -> Void
-  Source<T> = (_ sink:@escaping Sink<T>) -> Void;
+  Source<T> = (_ sink:Sink<T>) -> Void;
   ```
 # Functions have been implemented
 
