@@ -63,6 +63,12 @@ class ViewController: UIViewController {
         
         subject2(.data(4))
         
+        
+        let _ = fromArray([1,2,3,3,2,3,6,6])
+        => distinctUntilChanged()
+        => subscribe(onData: {
+            print($0)
+        })
     }
 }
 

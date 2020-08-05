@@ -16,3 +16,55 @@ public func map<A,B>(_ f:@escaping (A) -> B) -> Operator<A,B> {
         }
     }
 }
+
+
+public func distinctUntilChanged<A:Equatable>() -> Operator<A,A> {
+    return { source in
+        var last:A? = nil
+        return { sink in
+            source({ payload in
+                if case .data(let data) = payload {
+                    if(data != last)
+                    {
+                        last = data
+                        sink(.data(data))
+                    }
+                  
+                }
+                else {
+                    sink(payload)
+                }
+                
+            })
+        }
+    }
+}
+
+
+
+public func distinctUntilChanged<A>(_ f:@escaping (A,A) -> Bool) -> Operator<A,A> {
+    return { source in
+        var last:A? = nil
+        return { sink in
+            source({ payload in
+                if case .data(let data) = payload {
+                    if let value = last {
+                        if(f(value,data))
+                        {
+                            last = data
+                            sink(.data(data))
+                        }
+                    }
+                    else{
+                       last = data
+                       sink(payload)
+                    }
+                  
+                }
+                else {
+                    sink(payload)
+                }
+            })
+        }
+    }
+}
