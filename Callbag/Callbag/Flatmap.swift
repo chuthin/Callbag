@@ -7,7 +7,7 @@
 //
 
 import Foundation
-public func flatmap<A,B>(_ f:@escaping(A)->Source<B>) -> Operator<A,B> {
+public func flatmap<A,B>(_ f:@escaping(A)->Producer<B>) -> Operator<A,B> {
     return { source in
         return { sink in
             var outerTalkback:Talkback?
@@ -23,7 +23,7 @@ public func flatmap<A,B>(_ f:@escaping(A)->Source<B>) -> Operator<A,B> {
                     outerTalkback = tb
                     sink(.start(talkBack))
                 }else  if case .data(let d) = payload {
-                    let innerProducer:Source<B> = f(d)
+                    let innerProducer:Producer<B> = f(d)
                     innerTalkback?(Payload<B>.end(nil))
                     innerProducer({ innerPayload in
                         if case .start(let inertb) = innerPayload {

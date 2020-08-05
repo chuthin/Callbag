@@ -8,7 +8,7 @@
 
 import Foundation
 
-public func combine<S1,S2,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Source<S2>,_ f:@escaping(S1,S2)-> R) -> Source<R> {
+public func combine<S1,S2,R>(_ s1:@escaping Producer<S1>,_ s2:@escaping Producer<S2>,_ f:@escaping(S1,S2)-> R) -> Producer<R> {
     return { sink in
         var ended = false
         var talkback1:Talkback? = nil
@@ -93,7 +93,7 @@ public func combine<S1,S2,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Source<S2>
 
 
 
-public func combine<S1,S2,S3,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Source<S2>,_ s3:@escaping Source<S3>,_ f:@escaping (S1,S2,S3) -> R) -> Source<R> {
+public func combine<S1,S2,S3,R>(_ s1:@escaping Producer<S1>,_ s2:@escaping Producer<S2>,_ s3:@escaping Producer<S3>,_ f:@escaping (S1,S2,S3) -> R) -> Producer<R> {
     return { sink in
         var ended = false
         var talkback1:Talkback? = nil
@@ -171,7 +171,7 @@ public func combine<S1,S2,S3,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Source<
     }
 }
 
-public func combine<S1,S2,S3,S4,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Source<S2>,_ s3:@escaping Source<S3>,_ s4:@escaping Source<S4>,_ f:@escaping (S1,S2,S3,S4) -> R) -> Source<R> {
+public func combine<S1,S2,S3,S4,R>(_ s1:@escaping Producer<S1>,_ s2:@escaping Producer<S2>,_ s3:@escaping Producer<S3>,_ s4:@escaping Producer<S4>,_ f:@escaping (S1,S2,S3,S4) -> R) -> Producer<R> {
     return { sink in
         var ended = false
         var talkback1:Talkback? = nil
@@ -257,7 +257,7 @@ public func combine<S1,S2,S3,S4,R>(_ s1:@escaping Source<S1>,_ s2:@escaping Sour
     }
 }
 
-public func combineWith<A,B,R>(_ source:@escaping Source<A>,_ f:@escaping (A,B) -> R) ->Operator<B,R> {
+public func combineWith<A,B,R>(_ source:@escaping Producer<A>,_ f:@escaping (A,B) -> R) ->Operator<B,R> {
     return { source2 in
         return combine(source, source2, f)
     }

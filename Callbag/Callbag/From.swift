@@ -7,7 +7,7 @@
 //
 
 import Foundation
-public func fromArray<T>(_ arr:[T]) -> Source<T> {
+public func fromArray<T>(_ arr:[T]) -> Producer<T> {
     return { sink in
         var ended = false
         sink(.start({ _ in
@@ -25,7 +25,7 @@ public func fromArray<T>(_ arr:[T]) -> Source<T> {
     }
 }
 
-public func fromInterval(_ period:TimeInterval) -> Source<Int> {
+public func fromInterval(_ period:TimeInterval) -> Producer<Int> {
     return { sink in
         var timer: Timer?
         var i: Int = 0;
@@ -42,7 +42,7 @@ public func fromInterval(_ period:TimeInterval) -> Source<Int> {
     }
 }
 
-public func fromSubject<T>(_ subject:@escaping Subject<T>) -> Source<T> {
+public func fromSubject<T>(_ subject:@escaping Subject<T>) -> Producer<T> {
     return { sink in
         subject(.start(sink))
     }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public func merge<T>(_ sources: Source<T>...) -> Source<T> {
+public func merge<T>(_ sources: Producer<T>...) -> Producer<T> {
     return { sink in
         let n = sources.count
         var ended = false

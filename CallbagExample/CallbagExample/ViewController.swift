@@ -9,7 +9,6 @@
 import UIKit
 import Callbag
 class ViewController: UIViewController {
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -21,7 +20,7 @@ class ViewController: UIViewController {
             })
         print("------------------")
         let _ = fromArray([[1,2,3,4],[2,3,5,8]])
-            => flatmap{ value -> Source<Int> in
+            => flatmap{ value -> Producer<Int> in
                 return fromArray(value)
             }
             => filter {$0 % 2 != 0}
@@ -71,4 +70,3 @@ class ViewController: UIViewController {
         })
     }
 }
-

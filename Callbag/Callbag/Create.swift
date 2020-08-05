@@ -8,7 +8,7 @@
 
 import Foundation
 
-public func create<T>(_ observer: @escaping (@escaping (T)-> Void,@escaping (Any?)->Void)->Void,onComplete:OnEnd? = nil) -> Source<T> {
+public func create<T>(_ observer: @escaping (@escaping (T)-> Void,@escaping (Any?)->Void)->Void,onComplete:OnEnd? = nil) -> Producer<T> {
     return { sink in
         var ended = false
         let next:(T)->Void = { t in
@@ -33,7 +33,7 @@ public func create<T>(_ observer: @escaping (@escaping (T)-> Void,@escaping (Any
     }
 }
 
-public func empty<T>() -> Source<T> {
+public func empty<T>() -> Producer<T> {
     return { sink in
         var ended = false
         sink(.start{ _ in
@@ -45,7 +45,7 @@ public func empty<T>() -> Source<T> {
     }
 }
 
-public func never<T>() -> Source<T> {
+public func never<T>() -> Producer<T> {
     return { sink in
         sink(.start({_ in }))
     }
