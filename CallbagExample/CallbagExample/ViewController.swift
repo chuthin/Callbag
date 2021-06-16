@@ -48,12 +48,12 @@ class ViewController: UIViewController {
         subject(.data(22))
         
         print("------------------")
-        let subject2 = makeReplaySubject(2)
+        let subjectN = makeReplaySubject(2)
         let _ = fromSubject(subject2)
             => subscribe(onData: {
                 print("r3 \($0)")
             })
-        subject2(.data(3))
+        subjectN(.data(3))
         
         let _ = fromSubject(subject2)
             => subscribe(onData: {
