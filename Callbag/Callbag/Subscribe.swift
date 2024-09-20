@@ -36,3 +36,33 @@ public func subscribe<T>( onData:@escaping OnData<T>,oneEnd: OnEnd? = nil) -> Su
         }
     }
 }
+
+public func subscribeWithPushback<T>( onData: @escaping (T,Talkback?) -> Void,oneEnd: OnEnd? = nil) -> Subscribable<T> {
+    return { source  in
+        var talkback:Talkback? = nil
+        var disposeLater = false
+        source({ payload in
+            if case .start(let tb) = payload {
+                talkback = tb
+                if(disposeLater){
+                    talkback?(Payload<T>.end(nil))
+                }
+            }
+            else if case .data(let d) = payload {
+                onData(d,talkback)
+            }
+            else if case .end(let d) = payload {
+                oneEnd?(d)
+            }
+        })
+
+        return {
+            if(talkback != nil){
+                talkback?(Payload<T>.end(nil))
+            }
+            else {
+                disposeLater = true
+            }
+        }
+    }
+}

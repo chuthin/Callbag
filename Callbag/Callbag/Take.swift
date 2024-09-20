@@ -66,7 +66,6 @@ public func takeUntil<T>(_ f:@escaping (T)->Bool) ->  Operator<T,T> {
                             sink(.end(nil))
                         }
                     }
-                    
                 }
                 else {
                     sink(payload)
